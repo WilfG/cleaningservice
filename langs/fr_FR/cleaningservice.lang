@@ -1,0 +1,251 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleMyModuleName'
+ModuleMyModuleName = MyModule
+# Module description 'ModuleMyModuleDesc'
+ModuleMyModuleDesc = MyModule description
+
+#
+# Admin page
+#
+MyModuleSetup = MyModule setup
+Settings = Settings
+MyModuleSetupPage = MyModule setup page
+NewSection=New section
+MYMODULE_MYPARAM1 = My param 1
+MYMODULE_MYPARAM1Tooltip = My param 1 tooltip
+MYMODULE_MYPARAM2=My param 2
+MYMODULE_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+MyModuleAbout = About MyModule
+MyModuleAboutPage = MyModule about page
+
+#
+# Sample page
+#
+ModuleCleaningService=Service de Nettoyage
+CleaningServiceDescription=Gestion des services de nettoyage et des agents d'entretien
+
+# MENU
+CleaningService=Service de Nettoyage
+Tasks=Tâches
+NewTask=Nouvelle Tâche
+Schedule=Planning
+
+# CHAMPS DE TÂCHE
+Frequency=Fréquence
+OneOff=Ponctuelle
+Daily=Quotidienne
+Weekly=Hebdomadaire
+TaskCreation=Création de Tâche
+SelectHousekeepers=Sélectionner les Agents
+HoursWorked=Heures Travaillées
+TaskValidation=Validation de Tâche
+AdminValidation=Validation Administrative
+TaskStatus=Statut
+CustomerSignature=Signature Client
+
+# PERMISSIONS
+Permission500121001=Créer/modifier les tâches de nettoyage
+Permission500121002=Voir les tâches de nettoyage
+Permission500121003=Supprimer les tâches de nettoyage
+
+AssignedHousekeepers=Agents Assignés
+NoAssignedHousekeepers=Aucun agent assigné
+
+Housekeepers=Agents d'Entretien
+SelectHousekeepers=Sélectionner les Agents
+NoHousekeepersSelected=Aucun agent sélectionné
+
+Schedule=Planning
+AllTasks=Toutes les Tâches
+MyTasks=Mes Tâches
+EmployeeTasks=Tâches de l'Employé
+PreviousWeek=Semaine Précédente
+NextWeek=Semaine Suivante
+ConfirmPresence=Confirmer la Présence
+PresenceConfirmed=Présence Confirmée
+Pending=En Attente
+Confirmed=Confirmé
+Time=Heure
+
+TaskAssignmentNotification=Nouvelle tâche %s vous a été assignée
+TaskAssignmentEmailSubject=Nouvelle Attribution de Tâche : %s
+TaskAssignmentEmailBody=Une nouvelle tâche %s vous a été assignée.\n\nDate de début : %s\nDate de fin : %s\n\nVeuillez consulter votre planning dans Dolibarr.
+
+TaskHours=Heures de Tâche
+HoursWorked=Heures Travaillées
+SaveHours=Enregistrer les Heures
+HoursHistory=Historique des Heures
+HoursUpdated=Heures mises à jour avec succès
+
+TaskValidation=Validation de Tâche
+TaskValidated=Tâche validée avec succès
+TaskRejected=Tâche rejetée
+Comment=Commentaire
+Validate=Valider
+Reject=Rejeter
+
+FrequencyHelp=Sélectionner la fréquence de la tâche
+
+CompleteTask=Terminer la Tâche
+TaskCompleted=Tâche marquée comme terminée
+
+HoursSummary=Résumé des Heures
+GeneratePDF=Générer PDF
+Period=Période
+Total=Total des Heures
+
+HoursAlreadyLocked=Les heures ont déjà été saisies et ne peuvent être modifiées
+HoursUpdated=Heures mises à jour avec succès
+
+TaskList=Liste des Tâches
+Ref=Référence
+Label=Libellé
+Customer=Client
+DateStart=Date de Début
+DateEnd=Date de Fin
+Status=Statut
+Actions=Actions
+View=Voir
+
+LastVisit=Dernière Visite
+Never=Jamais Visité
+
+TimeEntry=Saisie du Temps
+EnterHours=Saisir les Heures
+
+Reports=Rapports & Supervision
+Employee=Employé
+TaskSummary=Résumé des Tâches
+TotalTasks=Total des Tâches
+InProgress=En Cours
+Completed=Terminé
+TasksAssigned=Tâches Assignées
+CompletionRate=Taux de Réalisation
+Export=Exporter en CSV
+
+ExportData=Exporter les Données
+FilterResults=Filtrer les Résultats
+ApplyFilters=Appliquer les Filtres
+ClearFilters=Effacer les Filtres
+NoResults=Aucun résultat trouvé
+
+TotalHoursWorked=Total des Heures Travaillées
+LastTimesheet=Dernière Saisie de Temps
+
+GenerateInvoices=Générer les Factures
+InvoicesGenerated=Les factures ont été générées avec succès
+CleaningServicesFrom=Services de nettoyage du
+to=au
+Tasks=Tâches
+Task=Tâche
+Employees=Employés impliqués
+
+InvoicesGenerated=%s facture(s) ont été générées avec succès
+NoInvoicesGenerated=Aucune facture n'a été générée. Vérifiez s'il y a des heures facturables dans la période sélectionnée.
+
+TaskTimeDescriptionWithEmployee=Tâche %s - %s\nDate : %s\nAgent : %s
+TimesheetDetails=Détails des Heures
+Hours=heures
+
+RejectTask=Rejeter la Tâche
+TaskRejected=La tâche a été rejetée
+
+SaveHoursAndSign=Enregistrer les Heures et Signer
+ClearSignature=Effacer la Signature
+PleaseProvideSignature=Veuillez fournir votre signature
+SignatureRequired=La signature est requise
+Signature=Signature
+HoursAndSignatureSaved=Les heures et la signature ont été enregistrées avec succès
+ExportHousekeepersWeekPDF=Exporter le planning de la semaine
+
+# Timesheet Translations
+TimeEntry=Saisie du temps
+WorkDate=Date du travail
+TimeRange=Plage horaire
+HoursWorked=Heures travaillées
+Notes=Notes
+SaveHours=Enregistrer les heures
+TimeHistory=Historique des heures
+Date=Date
+Hours=heures
+
+# Signature Related
+Signature=Signature
+ClearSignature=Effacer la signature
+PleaseProvideSignature=Veuillez apposer votre signature
+SignatureRequired=La signature est obligatoire
+HoursAndSignatureSaved=Les heures et la signature ont été enregistrées
+
+# Form Fields and Buttons
+StartTime=Heure de début
+EndTime=Heure de fin
+Save=Enregistrer
+Cancel=Annuler
+
+# Messages
+HoursAlreadyLocked=Les heures sont déjà verrouillées
+HoursUpdated=Heures mises à jour avec succès
+InvalidHours=Nombre d'heures invalide
+SignatureRequired=Une signature est requise
+InvalidDate=Date invalide
+
+# Time History
+TimeDetails=Détails des heures
+NoTimeEntries=Aucune saisie de temps trouvée
+TotalHours=Total des heures
+
+# Status Messages
+Success=Succès
+Error=Erreur
+ValidationError=Erreur de validation
+
+# Task Information
+TaskReference=Référence de la tâche
+Customer=Client
+Location=Lieu
+Description=Description
+
+TaskNew=Nouvelle tâche
+TaskPending=Tâche en cours
+TaskCompleted=Tâche finie
+TaskValidated=Tâche validaté
+TaskRejected=Tâche rejectée
+AwaitingValidation=Attente de validation
+bimonthly=bimensuel
+Monthly=Mensuelle
+BimonthlyTasksCreated=Tache bimensuelle a été créé avec succès
+TaskOriginal=Tâche originale
+TaskClone=Clone %s
+
+PropertyDetails=Détails de la propriété
+MatelasDouble=Matelas doubles
+MatelasSimple=Matelas simples
+DuvetDouble=Duvets doubles
+DuvetSimple=Duvets simples
+Oreiller=Oreillers
+CanapesLit=Canapés-lits
+SallesDeBain=Salles de bain
+SallesDeDouche=Salles de douche
+CodeBoiteCle=Code boîte à clé
+CodeBatiment=Code bâtiment/portail
+InformationsPlus=Informations supplémentaires
+RecurringTasksCreated=Recurring tasks have been created
+TaskOriginal=Original
+TaskClone=Copy %s
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
